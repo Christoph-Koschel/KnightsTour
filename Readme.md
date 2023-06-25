@@ -21,8 +21,8 @@ The program can be customized by modifying the properties in the Settings.java f
 
 | Property              | Description                                                                                                                                                                                                                                              |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| MAX_THREADS           | To specify the maximum number of threads for the program, set the value accordingly. If you want to run the program on a single thread, you can set the value to zero or any negative number.                                                            |
 | FIELD_SIZE            | Specify the desired chessboard size for the program.                                                                                                                                                                                                     |
+| MAX_THREADS           | To specify the maximum number of threads for the program, set the value accordingly. If you want to run the program on a single thread, you can set the value to zero or any negative number.                                                            |
 | ENABLE_PROCESS_OUTPUT | Enabling the program to output node states during the calculation significantly increases the calculation time due to the data output. Please note the warning that the program will take significantly longer to complete when this feature is enabled. |
 
 
