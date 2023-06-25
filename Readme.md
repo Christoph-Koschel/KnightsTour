@@ -15,6 +15,16 @@ until it finds a valid tour or determines that no tour is possible.
 3. Compile the Java source files using your preferred Java compiler.
 4. Run the program and wait for the result. (**Notice** on older PCs the calculation can take some time)
 
+## Modify the program:
+
+The program can be customized by modifying the properties in the Settings.java file.
+
+| FIELD_SIZE            | Specify the desired chessboard size for the program.                                                                                                                                                                                                     |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| MAX_THREADS           | To specify the maximum number of threads for the program, set the value accordingly. If you want to run the program on a single thread, you can set the value to zero or any negative number.                                                            |
+| ENABLE_PROCESS_OUTPUT | Enabling the program to output node states during the calculation significantly increases the calculation time due to the data output. Please note the warning that the program will take significantly longer to complete when this feature is enabled. |
+
+
 ## License:
 
 The program is released under the MIT License. Feel free to modify and distribute it as per the license terms.
